@@ -4,3 +4,9 @@ uvicorn
 sentencepiece
 torch
 transformers
+wrapt
+flatbuffers
+scipy
+threadpoolctl
+joblib
+tf-keras

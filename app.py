@@ -5,7 +5,7 @@ app = FastAPI()
 
 # Create the text generation pipeline
 
-text_generator = pipeline("text-generation", model="google/flan-t5-small")
+text_generator = pipeline("text2text-generation", model="google/flan-t5-small")
 
 @app.get("/")
 
